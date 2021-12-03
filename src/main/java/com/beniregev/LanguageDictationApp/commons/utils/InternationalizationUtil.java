@@ -1,4 +1,7 @@
-package com.beniregev.LanguageDictationApp.commons;
+package com.beniregev.LanguageDictationApp.commons.utils;
+
+import com.beniregev.LanguageDictationApp.commons.enums.ConstPrinting;
+import com.beniregev.LanguageDictationApp.commons.model.ISOLanguage;
 
 import java.util.Arrays;
 import java.util.HashMap;
@@ -10,7 +13,7 @@ public class InternationalizationUtil {
 
     private void getLanguages() {
         System.out.println("Get ISO Languages: ");
-        System.out.println(Constants.TAB.value + Arrays.toString(Locale.getISOLanguages()));
+        System.out.println(ConstPrinting.TAB.value + Arrays.toString(Locale.getISOLanguages()));
         System.out.println("-------------------------------------------------");
     }
     private void getLanguages1() {
@@ -42,7 +45,7 @@ public class InternationalizationUtil {
 
     private void getCategories() {
         System.out.println("Locale.Category.values(): ");
-        System.out.println(Constants.TAB.value + "Array of constants: " + Arrays.toString(Locale.Category.values()));
+        System.out.println(ConstPrinting.TAB.value + "Array of constants: " + Arrays.toString(Locale.Category.values()));
         System.out.println("-------------------------------------------------");
     }
 
