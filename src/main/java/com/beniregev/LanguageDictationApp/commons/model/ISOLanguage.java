@@ -1,4 +1,4 @@
-package com.beniregev.LanguageDictationApp.commons;
+package com.beniregev.LanguageDictationApp.commons.model;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
