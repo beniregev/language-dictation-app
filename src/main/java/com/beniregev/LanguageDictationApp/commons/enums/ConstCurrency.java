@@ -9,10 +9,12 @@ public enum ConstCurrency {
     /* Israeli Shekel       */  ILS("₪"),
     /* Japanese Yen         */  JPY("¥");
 
-    public final String value;
+    private final String value;
 
     ConstCurrency(String value) {
         this.value = value;
     }
-
+    public String getValue() {
+        return this.value;
+    }
 }

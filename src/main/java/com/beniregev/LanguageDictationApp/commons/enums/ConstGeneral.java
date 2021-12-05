@@ -7,10 +7,12 @@ public enum ConstGeneral {
     TRADEMARK("™"),
     HAMBURGER_SIGN("≡");
 
-    public final String value;
+    private final String value;
 
     ConstGeneral(String value) {
         this.value = value;
     }
-
+    public String getValue() {
+        return this.value;
+    }
 }

@@ -10,10 +10,12 @@ public enum ConstPrinting {
     UPWARDS_ARROW("↑"),
     DOWNWARDS_ARROW("↓");
 
-    public final String value;
+    private final String value;
 
     ConstPrinting(String value) {
         this.value = value;
     }
-
+    public String getValue() {
+        return this.value;
+    }
 }
